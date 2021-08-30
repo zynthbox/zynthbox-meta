@@ -1,0 +1,13 @@
+Source: zynthbox-desktop
+Section: misc
+Priority: optional
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://monome.org/docs/norns/
+
+Package: zynthbox-desktop
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, openbox, qtvirtualkeyboard-plugin, qml-module-qtquick-virtualkeyboard, qml-module-qt-labs-folderlistmodel, plasma-framework, python3-pyside2.qtwidgets, qml-module-org-kde-newstuff, libwebkit2gtk-4.0-37, python3-soundfile
+Description: Dependencies for zynthbox
+ Download all Dependencies for the zynthbox desktop
