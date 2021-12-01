@@ -9,6 +9,6 @@ Homepage: https://monome.org/docs/norns/
 Package: zynthbox-meta
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, qtvirtualkeyboard-plugin, qml-module-qtquick-virtualkeyboard, qml-module-qt-labs-folderlistmodel, plasma-framework, python3-pyside2.qtwidgets, qml-module-org-kde-newstuff, libwebkit2gtk-4.0-37, python3-alsaaudio, matchbox-window-manager, python3-xlib, qml-module-qtquick-extras, qml-module-qtquick-shapes
-Recommends: zynthbox-bootsplash
+Recommends: zynthbox-bootsplash, zynthbox-qml
 Description: Dependencies for zynthbox
  Download all Dependencies for the zynthbox
